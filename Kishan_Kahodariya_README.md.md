@@ -1,8 +1,8 @@
 # Tutorial 3
 
 - _Date Created_: 31 Jan 2022
-- _Last Modification Date_: 2 Feb 2022
-- _Git URL_: https://git.cs.dal.ca/kahodariya/csci5709_adv_web_services/tu
+- _Last Modification Date_: 3 Feb 2022
+- _Git URL_: https://git.cs.dal.ca/kahodariya/csci5709_adv_web_services/-/tree/tutorial-03
 - _Git Group Repo URL_: https://git.cs.dal.ca/kahodariya/csci-5709-group-06-project
 - _Git Group Repo Individual branch URL_: https://git.cs.dal.ca/kahodariya/csci-5709-group-06-project/-/tree/kishan
 

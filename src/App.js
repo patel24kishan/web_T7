@@ -33,16 +33,22 @@ function App() {
     }
   }
   async function verifyPassword() {
-      if (password!=confirmPassword)
+      if (password!==confirmPassword)
       {
           alert("Password doesnt' match !!!")
       }
   }
 
-  async function validateEmail() {
-
-   
+  async function validateFirstName(e)
+  {
+      setFName(e.target.value.replace(/[^a-zA-Z]/ig,""));
   }
+
+  async function validateLastName(e)
+  {
+      setLName(e.target.value.replace(/[^a-zA-Z]/ig,""));
+  }
+
   return (
     <div>
       {(registered) ? (
@@ -58,10 +64,10 @@ function App() {
           <h2> Registration Page </h2>
           <br />
           <label htmlFor="fNameTag">First Name :  </label>
-          <input onChange={(e)=>setFName(e.target.value)} placeholder="First Name" />
+          <input value={fNname} onChange={validateFirstName.bind(this)} placeholder="First Name" />
           <br />
           <label htmlFor="lNameTag">Last Name :  </label>
-          <input onChange={(e)=>setLName(e.target.value)}placeholder="Last Name" />
+          <input value={lNname} onChange={validateLastName.bind(this)} placeholder="Last Name" />
           <br />
           <label htmlFor="userPasswordTag">Password :     </label>
           <input onChange={(e)=>setPassword(e.target.value)} type="password"  placeholder="Password" />
