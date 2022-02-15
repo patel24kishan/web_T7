@@ -1,0 +1,12 @@
+.center {
+  height: 250px;
+  margin-top: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(32, 32, 32),
+    rgb(177, 177, 177)
+  );
+  border-radius: 20px;
+}
