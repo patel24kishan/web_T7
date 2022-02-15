@@ -78,7 +78,7 @@ The code above was created by adapting the code in [App.js](https://github.com/l
 
 -[App.js](https://github.com/lyraddigital/react-bootstrap-login-form/blob/master/src/App.js)'s Code was used because it matched all the requirements of this tutorial and served my initial purpose of creating a simple yet effective sign In page
 
-- [App.js](https://github.com/lyraddigital/react-bootstrap-login-form/blob/master/src/App.js)'s Code was modified by removing non-necessary elements like "Remember me" and "Forgot passorword" from the initial layout.
+- [App.js](https://github.com/lyraddigital/react-bootstrap-login-form/blob/master/src/App.js)'s Code was modified by removing non-necessary elements like "Remember me" and copyright" paragraph from the initial layout.
 
 ## Acknowledgements
 
