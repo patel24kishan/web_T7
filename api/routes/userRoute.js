@@ -13,13 +13,13 @@ router.get("",(req,res)=>{
 
 router.get("/:id",(req,res)=>{
 
-    const username=req.params.id;
+    const userId=req.params.id;
     console.log(username)
 
     const u = userObj.filter(u=>{
-        return u.firstName===username
+        return u.id===userId
     })[0];
-     return res.status(500).json({message:"Users retrieved",success:"true",data:u});
+    return res.status(500).json({message:"Users retrieved",success:"true",data:u});
 });
 
 module.exports=router;
