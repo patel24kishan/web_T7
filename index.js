@@ -1,7 +1,7 @@
 const http=require("http");
 const app = require("./app");
 
-const port =8080 || process.env.PORT;
+const port =process.env.PORT || 8080;
 
 console.log(__dirname);
 console.log(__filename);
